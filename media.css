@@ -1,0 +1,228 @@
+@media(max-width: 500px){
+    
+    header{
+        width: auto;
+        height: 10%;
+        overflow: hidden;
+  
+    }
+    header nav{
+        margin-top: -10px;
+        float: left;
+        display: block;
+        font-family: sans-serif;
+        font-size: 15px;
+       
+    }
+    .header-section a img{
+        width: 60px;
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .arabic{
+        width: 90%;
+        font-size: 10px;
+    }
+    .video{
+        position: relative;
+        right: 50px;
+        
+    }
+    .video  iframe{
+        width: 300px;
+        height: 150px;
+        
+        margin-left: 30px;
+    }
+    .catg{
+        margin-top:-20%;
+        font-size: 15px;
+        
+    }
+    .new-images{
+        width: 75%;
+    
+         flex-wrap: wrap;
+         
+         
+        margin-left: 50px;
+        
+    }
+    .box{
+        margin-top: 5px;
+        
+    }
+    .btn{
+        width: 30px;
+    }
+
+    .catge{
+        width: 80%;
+        font-size: 15px;
+        margin-left: 45px;
+        
+    }
+    .two-section{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+               
+       
+        
+    }
+    .writing{
+        
+        width: 90%;
+        height: 1200px;
+        
+    }
+   .branding{
+       display: flex;
+       flex-direction: column;
+   }
+   .picture{
+    width:90%;
+    height: 300px;
+   }
+ .picture-image img{
+    width: 300px;
+    margin-top: -50px;
+    margin-left: 230px;
+ }
+ .catger{
+   margin-top: 200%;
+}
+.section-three{
+    margin-top: 170%;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.image-one img {
+    width: 300px;
+    height: 350px;
+    border-radius: 6px;
+}
+.section-three-two{
+    margin-top: 350%;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.clothes{
+    margin-top: 700px;
+    width: 100%;
+  
+}
+.newbutton {
+
+    height:5px;
+    border-width:0;
+    width: 100%;
+    color:black;
+    background-color:black;         
+}
+.newbutton button{
+   position: relative;
+   left: 100px;
+   width: 200px;
+   height: 80px;
+   color: white;
+   background-color: black;
+   font-weight: bold;
+   border: 15px solid lightslategrey;
+   font-size: 20px;
+   cursor: pointer;
+}
+.newbutton button:hover{
+    background-color: brown;
+}
+.category{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+.section-four{
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-slide{
+    width: 500px;
+    height:300px;
+    margin-left: 2px;
+
+}
+.mySlides{
+    width:400px;
+    
+}
+.section-happy{
+    width: 500px;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 310px;
+    
+}
+.boxnew img{
+    
+    width: 400px;
+    border-radius: 10px;
+}
+.boxnew h1{
+    position: relative;
+    top: -400px;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    margin-left: 20px;
+}
+.square{
+    width: 350px;
+    margin-top: 200px;
+    left: auto;
+}
+.large{
+    width: 400px;
+    margin-top: 400px;
+    margin-left: 2px;
+}
+.section-five{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form{
+    width: 300px;
+    margin-top: 5px;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.form h1{
+   margin-top: 50px;
+}
+.quicklinks{
+    margin-left: 50px;
+}
+.imageinsta{
+    margin-left: 50px;
+}
+.follow h2{
+    margin-left: 50px;
+}
+}

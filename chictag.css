@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;;
+}
+
+.navbar-brand img {
+    height: 50px;
+    /* put value of image height as your need */
+    float: left;
+    margin-right: 7px;
+  }
+  .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+.arabic{
+    margin-top: 100px;
+    width: 400px;
+    font-size: 15px;
+    font-family: monospace;
+}
+.main-section .video{
+    width: 100%;
+    margin-top: -20px;
+}
+.video{
+    
+   padding:70px;
+   width: 100%;
+   
+}
+
+.catg{
+         margin-top: -50px; 
+         margin-bottom: 25px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    .catg h1{
+        margin: -20px;
+    }
+    
+.new-images{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box {
+    position: relative;
+    width: 800px;
+    max-width: 500px;
+ }
+ .box img {
+    width: 100%;
+    height: auto;
+ }
+ .box .btn {
+     border: 20px solid black;
+     padding: 20px;
+     width: 200px;
+     background-color: silver;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .catge{
+   
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.catge h1{
+    margin: -20px;
+}
+.two-section{
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.writing{
+    padding: 10px;
+    margin-left: 40px;
+    width:600px;
+    height:650px;
+    background-color:lightgray;
+    border-radius: 10px;
+
+}
+.writing h2{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.writing h2 span{
+    color: white;
+}
+.writing p{
+    font-size: 15px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+.branding{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.branding h1 span{
+    font-size: 50px ;
+    color:brown;
+}
+.picture{
+   
+    width: 400px;
+    height:600px ;
+    margin-right: 55px;
+    align-items: center;
+   
+    
+}
+.picture-image {
+    margin-top: 100px;
+    position: relative;
+    right: 190px;
+   
+   
+    width: 300px;
+    height:600px;
+    
+}
+.picture-image img{
+    border-radius:10px ;
+
+}
+.catger{
+    margin-top: -20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.catger h1{
+    margin-top:-10px;
+}
+.section-three{
+    margin-top: 25px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.image-one h3{
+    text-align: center;
+}
+.image-one p{
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+    margin-top: -10px;
+}
+.image-one p a{
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.image-one img {
+    width: 300px;
+    height: 350px;
+    border-radius: 6px;
+}
+.image-one img:hover{
+    opacity: 0.69;
+}
+.section-three-two{
+    margin-top: 25px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+.clothes{
+    margin-top: 40px;
+}
+.newbutton {
+
+    height:5px;
+    border-width:0;
+    width: 100%;
+    color:black;
+    background-color:black;         
+}
+.newbutton button{
+   position: relative;
+   top: -35px;
+   left: 40%;
+   width: 300px;
+   height: 80px;
+   color: white;
+   background-color: black;
+   font-weight: bold;
+   border: 15px solid lightslategrey;
+   font-size: 20px;
+   cursor: pointer;
+}
+.newbutton button:hover{
+    background-color: brown;
+}
+.category{
+    width: 100%;
+    height: 100px;
+    margin-top: 50;
+   
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.category h3{
+    margin-top: 80px;
+}
+.category  h1{
+    margin-top:-10px;
+}
+.section-four{
+    margin-top: 30px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-slide{
+    width: 500px;
+    height: 650px;
+
+}
+.mySlides{
+    width: 90%;
+    height: 600px;
+    border-radius: 10px;
+}
+.section-happy{
+    width: 500px;
+    height: 650px;
+    margin-right: 100px;
+}
+.boxnew img{
+    width: 500px;
+    max-width: 650px;
+    border-radius: 10px;
+
+
+    
+}
+.boxnew h1{
+    position: relative;
+    top: -550px;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    margin-left: 20px;
+    
+}
+.boxnew span{
+    color: crimson;
+}
+.square{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    bottom: 500px;
+    margin-left: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.large img{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+.section-five{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+   
+.quicklinks{
+    width:33.333%;
+    margin-left:100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.quicklinks a{
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+.form{
+     width: 300px;
+     margin-top: 5px;
+     flex-direction: row;
+     margin-left: -100px;
+     margin-top: -20px;
+}
+.form h1{
+    margin-top: 50px;
+}
+.whatsapp{
+    margin-top: 10px;
+    width: 40px;
+    margin-left: 10px;
+}
+.follow h2{
+    margin-left: 100px;
+}
+.imageinsta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100px;
+    
+}
+.insta-images img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid grey;
+}
+.foot{
+    margin-left: 450px;
+}
